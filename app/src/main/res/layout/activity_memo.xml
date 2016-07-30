@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/memo_activity"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white2">
+        <LinearLayout
+            android:id="@+id/main_top_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white2">
+            <Button
+                android:id="@+id/memo_activity_top_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/TOP_BUTTON"
+                android:text="@string/callback"/>
+            <TextView
+                android:id="@+id/main_top_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="3"/>-->
+            <Button
+                android:id="@+id/memo_top_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/TOP_BUTTON"
+                android:text="@string/add"
+                android:singleLine="false" />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/memo_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/white2">
+        </ListView>
+    </LinearLayout>
+</FrameLayout>

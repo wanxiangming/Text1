@@ -1,0 +1,166 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="fill_parent" />-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="23dp"-->
+                <!--android:text="@string/login_textview_acon"/>-->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:digits="@string/accon"
+                android:maxLength="15"
+                android:hint="@string/login_textview_acon"
+                android:textColorHint="@color/blue"
+                android:id="@+id/login_ET_acon"
+                style="@style/ListStyle"
+                android:paddingLeft="50dp"
+                android:background="@color/white2"/>
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="fill_parent" />-->
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background="@color/white"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="fill_parent"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/login_textview_pass"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="23dp"/>-->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:digits="@string/password"
+                android:id="@+id/login_ET_pass"
+                style="@style/ListStyle"
+                android:paddingLeft="50dp"
+                android:hint="@string/login_textview_pass"
+                android:textColorHint="@color/blue"
+                android:background="@color/white2"/>
+            <!--<TextView-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="fill_parent"/>-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"/>
+            <Button
+                android:id="@+id/lonin_BT_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/login_button_log"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/lonin_BT_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/login_button_register"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/line1"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/login_textview_ver"/>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/line1"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+        <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+        <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+        <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+        <!--android:background="@color/white">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:text="@string/hello_world"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"/>-->
+
+
+        <!--</LinearLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+</RelativeLayout>

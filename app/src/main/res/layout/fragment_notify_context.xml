@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2">
+    <ScrollView
+        android:id="@+id/notify_context_scrllview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white2">
+        <!--android:layout_above="@+id/notify_context_bottom_linearlayout"-->
+        <!--android:layout_below="@+id/notify_context_top_linearlayout">-->
+            <TextView
+                android:id="@+id/notify_context_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp"/>
+    </ScrollView>
+</LinearLayout>

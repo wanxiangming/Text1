@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#404040</color>
+    <color name="gray">#d8d8d8</color>
+    <color name="gray2">#82000000</color>
+    <color name="gray3">#8c8c8c</color>
+    <color name="white2">#f1eae6</color>
+    <color name="blue">#0083be</color>
+    <color name="blue2">#23a4ba</color>
+    <color name="lucency_70">#e2fffbff</color>
+    <color name="divider">#c5888d95</color>
+    <color name="time_color">#9a9a9a</color>
+    <color name="notify_context_color">#2d2d2d</color>
+    <color name="alph50_black">#501f1f1f</color>
+    <color name="alph70_black">#e7424242</color>
+    <color name="alpg0_white">#00ffffff</color>
+
+    <style name="TOP_BUTTON">
+        <item name="android:textSize">17sp</item>
+        <item name="android:background">@color/white2</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="FeelyouWindowAnimTheme" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/right_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/left_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/right_exit</item>
+    </style>
+
+    <style name="ListStyle">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.unite.administrator.test2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".Begin_Activity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".Login_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Main_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Create_Team_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Create_team_tip"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Teamlist_Acticity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Join_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Memberlist_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".NotifySend_Check_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Main_MessagesList_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Memo_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".NotifySend_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Register_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Main_MessagesContext_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".Memo_Edit_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".My_Acticity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+        <activity
+            android:name=".My_change_name_Activity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+
+
+        <service android:name="unit.PollingService"></service>
+
+        <receiver android:name="broadcastReceiver.PollingBreadcastReceiver"></receiver>
+        <receiver android:name="broadcastReceiver.Down_Receiver">
+            <intent-filter>
+                <action android:name="com.unite.administrator.test2.DOWN"></action>
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+</manifest>

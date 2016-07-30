@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/main_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/blue">
+        <Button
+            android:id="@+id/memo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/memo"
+            android:background="@color/blue"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/main_activity_top_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="3"/>-->
+        <Button
+            android:id="@+id/main_top_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/more"
+            android:background="@color/blue"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/main_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/black"
+        ptr:ptrHeaderTextColor="@color/divider"
+        
+        >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    <TextView
+        android:id="@+id/main_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="24sp"
+        android:text="右上角这个按钮\n看起来很重要"
+        android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/main_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white2">
+        <Button
+            android:id="@+id/sendcheck_top_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/callback"
+            android:singleLine="false" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <Button
+            android:id="@+id/sendcheck_top_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/ok"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/sendcheck_teamlist_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ListView>
+    <TextView
+        android:id="@+id/sendcheck_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="你还没有加入任何团队"
+        android:textSize="20sp"
+        android:textColor="@color/gray2"/>
+</LinearLayout>

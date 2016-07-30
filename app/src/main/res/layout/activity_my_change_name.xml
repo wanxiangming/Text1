@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2">
+    <LinearLayout
+        android:id="@+id/main_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white2">
+        <Button
+            android:id="@+id/name_change_callback_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/callback"
+            android:singleLine="false" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+        <Button
+            android:id="@+id/name_change_complete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/complete"
+            android:singleLine="false" />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+        <EditText
+            android:id="@+id/my_name_change_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="10"/>
+
+</LinearLayout>

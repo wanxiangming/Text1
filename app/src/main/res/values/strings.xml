@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">团队</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="more">更多</string>
+    <string name="memo">备忘</string>
+    <string name="callback">返回</string>
+    <string name="complete">完成</string>
+    <string name="agree">同意</string>
+    <string name="ignore">忽略</string>
+    <string name="ok">确定</string>
+    <string name="comment">评论</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="add">添加</string>
+    <string name="needchange">未完成</string>
+    <string name="accon">1234567890qwertyuioplkjhgfdsazxcvbnm</string>
+    <string name="password">1234567890-=+_*&amp;^%$#@!\';/.,?:"|qwertyuioplkjhgfdsazxcvbnmMNBVCXZASDFGHJKLPOIUYTREWQ</string>
+    <string name="username">用户名:</string>
+
+    <string name="login_textview_ver">Versions:1.0</string>
+    <string name="login_textview_acon">账号</string>
+    <string name="login_textview_pass">密码</string>
+    <string name="login_button_log">登陆</string>
+    <string name="login_button_register">注册</string>
+    <string name="login_dialog">该账号已存在</string>
+
+    <string name="popwind_mune_send_notification">通告</string>
+    <string name="popwind_mune_send_misson">任务</string>
+    <string name="popwind_mune_send_vote">投票</string>
+    <string name="popwind_mune_join">加入</string>
+    <string name="popwind_mune_create">创建</string>
+    <string name="popwind_mune_myself">我</string>
+    <string name="popwind_mune_grouplist">团队</string>
+    <string name="popwind_menu_logoff">登出</string>
+
+    <string name="creat_edittext_hint">在此输入团队名称</string>
+    <string name="join_edittext_hint">在此输入团队ID</string>
+
+
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="pull_to_refresh">松开刷新</string>
+    <string name="not_updated_yet">松开刷新</string>
+
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+
+</resources>

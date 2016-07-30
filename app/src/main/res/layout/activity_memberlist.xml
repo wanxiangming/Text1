@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/gray">
+        <Button
+            android:id="@+id/memberlist_acticity_callback_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TOP_BUTTON"
+            android:text="@string/callback"
+            android:background="@color/gray"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp" />
+
+    <Button
+        android:id="@+id/leave_team_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListStyle"/>
+
+    <ListView
+        android:id="@+id/mamber_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/white">
+    </ListView>
+
+</LinearLayout>
